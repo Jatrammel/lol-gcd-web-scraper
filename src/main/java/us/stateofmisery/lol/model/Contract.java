@@ -2,7 +2,7 @@ package us.stateofmisery.lol.model;
 
 import java.time.LocalDate;
 
-public class Contact {
+public class Contract {
     private LocalDate endDate;
     private String position;
     private Residency residency;

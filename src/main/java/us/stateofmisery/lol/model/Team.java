@@ -8,6 +8,14 @@ public class Team {
     private List<Player> players;
     private Region region;
 
+    public Team() {}
+
+    public Team(String league, String name, Region region) {
+        this.league = league;
+        this.name = name;
+        this.region = region;
+    }
+
     public String getLeague() {
         return league;
     }

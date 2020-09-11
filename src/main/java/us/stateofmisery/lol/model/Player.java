@@ -1,17 +1,17 @@
 package us.stateofmisery.lol.model;
 
 public class Player {
-    private Contact contact;
+    private Contract contract;
     private String familyName;
     private String firstName;
     private String summonerName;
 
-    public Contact getContact() {
-        return contact;
+    public Contract getContact() {
+        return contract;
     }
 
-    public void setContact(Contact contact) {
-        this.contact = contact;
+    public void setContact(Contract contract) {
+        this.contract = contract;
     }
 
     public String getFamilyName() {
