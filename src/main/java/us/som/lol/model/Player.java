@@ -1,4 +1,4 @@
-package us.stateofmisery.lol.model;
+package us.som.lol.model;
 
 public class Player {
     private Contract contract;
